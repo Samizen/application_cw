@@ -8,13 +8,13 @@ namespace WindowsFormsApp1
 {
     class Visitor
     {
-        private string ticketID { get; set; }
-        private string ticketName { get; set; }
-        private string noOfPeople { get; set; }
-        private Boolean isGroup { get; set; }
-        private DateTime entryTime { get; set; }
-        private DateTime exitTime { get; set; }
-        private int under12 { get; set; }
-        private int above12 { get; set; }
+     public Visitor() { }
+        public string ticketID { get; set; }
+        public string ticketName { get; set; }
+        public string noOfPeople { get; set; }
+        public int groupNoOfPeople { get; set; }
+        public DateTime entryTime { get; set; }
+        public DateTime exitTime { get; set; }
+        public int age { get; set; }
     }
 }
